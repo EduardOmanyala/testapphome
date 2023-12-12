@@ -20,8 +20,8 @@ from core import views as core_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', core_views.home, name='home'),
-    path('home', core_views.home2, name='home2'),
+    path('testpage', core_views.home, name='home'),
+    path('', core_views.home2, name='home2'),
     path('about', core_views.about, name='about'),
     path('product/select', core_views.selector, name='select'),
     path('contactus', core_views.contactus, name='contactus'),
